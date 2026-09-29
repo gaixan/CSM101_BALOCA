@@ -7,7 +7,6 @@ patients = {
 print(patients)
 print()
 
-# Blood sugar summary
 for key, values in patients.items():
     print("\nPatient:", key)
     print("---Blood Sugar Summary---")
@@ -20,8 +19,6 @@ for key, values in patients.items():
         else:
             print(item, "= High blood sugar")
 
-
-# Statistics
 for name, values in patients.items():
     maximum = max(values)
     minimum = min(values)
